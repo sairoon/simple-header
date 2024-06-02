@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>eLearning</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-white shadow fixed-top">
+            <div class="container">
+                <a href="" class="navbar-brand fw-bolder">eLearning</a>
+                <button type="submit" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainManu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse fw-bolder" id="mainManu">
+                    <ul class="navbar-nav nav-underline ms-auto text-uppercase">
+                        <li><a href="#" class="nav-link">Home</a></li>
+                        <li><a href="#" class="nav-link">About</a></li>
+                        <li><a href="#" class="nav-link">Courses</a></li>
+                        <li><a href="#" class="nav-link">Contact Us</a></li>
+                        <li><a href="" class="nav-link" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">sign in</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="py-5">
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content container">
+                    <button type="button" class="btn-close ms-auto mt-4 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-header">
+                        <h5 class="title-color fw-bolder mx-auto" id="exampleModalToggleLabel">Sign in to your eLearning account</h5>
+                    </div>
+                    <div class="modal-body">
+                        <label for="" class="py-2">Email</label>
+                        <input type="email" class="form-control" placeholder="Enter your Email">
+                        <label for="" class="py-2">Password</label>
+                        <input type="text" class="form-control" placeholder="Enter your Password">
+                        <div class="text-end mt-3">
+                            <!--                            <label for="" class="me-auto mt-2 title-color"><input type="checkbox"> Remember Me.</label>-->
+                            <a href="" class="ms-auto link-underline-light" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal">Forgot Your Password?</a>
+                        </div>
+                    </div>
+                        <div class="mx-auto col-sm-11">
+                            <a href="" class="btn btn-info col-sm-12 rounded-2 text-white mt-2 mb-4 fs-5 text-uppercase">Sign In</a>
+                        </div>
+                    <div class="modal-footer">
+                        <div class="col-md-12 text-center">
+                            <label for="" class="me-auto"> Don't have an Account?</label>
+                            <a href="" class="acc-btn link-underline-light" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Create Account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content container">
+                    <button type="button" class="btn-close ms-auto mt-4 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-header">
+                        <h4 class="title-color fw-bolder mx-auto" id="exampleModalToggleLabel2">Sign up for eLearning account</h4>
+                    </div>
+                    <div class="modal-body">
+                        <label for="" class="py-2">Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your Name">
+                        <label for="" class="py-2">Email</label>
+                        <input type="email" class="form-control" placeholder="Enter your Email">
+                        <label for="" class="py-2">Password</label>
+                        <input type="text" class="form-control" placeholder="Enter your Password">
+                        <label for="" class="py-2">Confirm Password</label>
+                        <input type="text" class="form-control" placeholder="Enter your Confirm Password">
+                    </div>
+                    <div class="mx-auto col-sm-11">
+                        <a href="" class="btn btn-info col-sm-12 rounded-2 text-white mt-2 mb-4 fs-5 text-uppercase">Sign Up</a>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="col-md-12 text-center">
+                            <label for="" class="me-auto">Already Have an Account?</label>
+                            <a href="" class="acc-btn link-underline-light" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Login Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content container">
+                    <div class="modal-header">
+                        <h4 class="title-color fw-bolder" id="exampleModalToggleLabel3">Forgot Your Password?</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5>Relax & think Peacefully.</h5>
+                        <p>I know, You can do it. Good luck..</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-outline-success me-auto" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Yes i remember it</button>
+                        <button class="btn btn-outline-danger" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">No i don't got it</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container align-items-center">
+            <img src="img/preloader.gif" alt="">
+            <div class="spinner-border text-info align-middle" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <img src="img/mount.jpg" alt="">
+        </div>
+        
+    </section>
+    <section class="py-3">
+        <div class="wave"></div>
+    </section>
+
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

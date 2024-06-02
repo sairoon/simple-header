@@ -1,0 +1,34 @@
+.acc-btn {
+    color: #06bbcc;
+}
+.modal-title{
+    color: #06bbcc; !important;
+}
+.title-color{
+    color: #636f89;
+}
+.modal{
+    background: transparent; !important;
+    backdrop-filter: blur(6px);
+}
+/*
+.wave {
+    width: 100px;
+    height: 100px;
+    background-color: #b03333;
+    animation: wave 5s infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(0, -50px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}*/
